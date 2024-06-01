@@ -1,0 +1,47 @@
+2024-06-01T15:41:06.052+03:00  INFO 13656 --- [ServiceRegis] [main] c.e.S.ServiceRegisApplication            : Starting ServiceRegisApplication using Java 17.0.11 with PID 13656 (C:\Users\Bashoofak\Desktop\ppp\ServiceRegis\target\classes started by Bashoofak in C:\Users\Bashoofak\Desktop\ppp)
+2024-06-01T15:41:06.052+03:00  INFO 13656 --- [ServiceRegis] [main] c.e.S.ServiceRegisApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-06-01T15:41:07.751+03:00  INFO 13656 --- [ServiceRegis] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=afc9bdaf-7ff5-341e-938b-1e2ecb5e679f
+2024-06-01T15:41:07.847+03:00  WARN 13656 --- [ServiceRegis] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-06-01T15:41:07.874+03:00  WARN 13656 --- [ServiceRegis] [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-01T15:41:08.236+03:00  INFO 13656 --- [ServiceRegis] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2024-06-01T15:41:08.254+03:00  INFO 13656 --- [ServiceRegis] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-01T15:41:08.255+03:00  INFO 13656 --- [ServiceRegis] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-01T15:41:08.417+03:00  INFO 13656 --- [ServiceRegis] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-01T15:41:08.417+03:00  INFO 13656 --- [ServiceRegis] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2249 ms
+2024-06-01T15:41:09.635+03:00  INFO 13656 --- [ServiceRegis] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2024-06-01T15:41:09.635+03:00  INFO 13656 --- [ServiceRegis] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2024-06-01T15:41:09.883+03:00  INFO 13656 --- [ServiceRegis] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2024-06-01T15:41:09.883+03:00  INFO 13656 --- [ServiceRegis] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2024-06-01T15:41:11.498+03:00  WARN 13656 --- [ServiceRegis] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-06-01T15:41:11.528+03:00  INFO 13656 --- [ServiceRegis] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-06-01T15:41:11.569+03:00  INFO 13656 --- [ServiceRegis] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-06-01T15:41:11.569+03:00  INFO 13656 --- [ServiceRegis] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2024-06-01T15:41:11.599+03:00  INFO 13656 --- [ServiceRegis] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1717245671597 with initial instances count: 0
+2024-06-01T15:41:11.669+03:00  INFO 13656 --- [ServiceRegis] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2024-06-01T15:41:11.686+03:00  WARN 13656 --- [ServiceRegis] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-06-01T15:41:11.720+03:00  INFO 13656 --- [ServiceRegis] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2024-06-01T15:41:11.723+03:00  INFO 13656 --- [ServiceRegis] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2024-06-01T15:41:11.738+03:00  INFO 13656 --- [ServiceRegis] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-01T15:41:11.848+03:00  INFO 13656 --- [ServiceRegis] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICEREGIS with eureka with status UP
+2024-06-01T15:41:11.874+03:00  INFO 13656 --- [ServiceRegis] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2024-06-01T15:41:11.875+03:00  INFO 13656 --- [ServiceRegis] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2024-06-01T15:41:11.876+03:00  INFO 13656 --- [ServiceRegis] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2024-06-01T15:41:11.876+03:00  INFO 13656 --- [ServiceRegis] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2024-06-01T15:41:11.877+03:00  INFO 13656 --- [ServiceRegis] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2024-06-01T15:41:11.891+03:00  INFO 13656 --- [ServiceRegis] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2024-06-01T15:41:11.897+03:00  INFO 13656 --- [ServiceRegis] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path ''
+2024-06-01T15:41:11.899+03:00  INFO 13656 --- [ServiceRegis] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2024-06-01T15:41:12.128+03:00  INFO 13656 --- [ServiceRegis] [main] c.e.S.ServiceRegisApplication            : Started ServiceRegisApplication in 6.832 seconds (process running for 7.525)
+2024-06-01T15:41:40.029+03:00  INFO 13656 --- [ServiceRegis] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-01T15:41:40.029+03:00  INFO 13656 --- [ServiceRegis] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-01T15:41:40.029+03:00  INFO 13656 --- [ServiceRegis] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-06-01T15:42:11.879+03:00  INFO 13656 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-01T15:43:05.492+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application SERVICEREGIS with eureka with status DOWN
+2024-06-01T15:43:05.512+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Shutting down Eureka Server..
+2024-06-01T15:43:05.517+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2024-06-01T15:43:05.533+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2024-06-01T15:43:05.534+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka Service is now shutdown...
+2024-06-01T15:43:05.535+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shutting down ...
+2024-06-01T15:43:05.547+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
+2024-06-01T15:43:05.563+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-06-01T15:43:05.565+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
