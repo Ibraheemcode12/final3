@@ -45,3 +45,272 @@
 2024-06-01T15:43:05.547+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] c.n.eureka.DefaultEurekaServerContext    : Shut down
 2024-06-01T15:43:05.563+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
 2024-06-01T15:43:05.565+03:00  INFO 13656 --- [ServiceRegis] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-06-03T14:07:36.659+03:00  INFO 10864 --- [ServiceRegis] [main] c.e.S.ServiceRegisApplication            : Starting ServiceRegisApplication using Java 17.0.11 with PID 10864 (C:\Users\Bashoofak\Desktop\project-step-3-bravo-6-going-dark\ServiceRegis\target\classes started by Bashoofak in C:\Users\Bashoofak\Desktop\project-step-3-bravo-6-going-dark)
+2024-06-03T14:07:36.675+03:00  INFO 10864 --- [ServiceRegis] [main] c.e.S.ServiceRegisApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-06-03T14:07:44.948+03:00  INFO 10864 --- [ServiceRegis] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=afc9bdaf-7ff5-341e-938b-1e2ecb5e679f
+2024-06-03T14:07:45.180+03:00  WARN 10864 --- [ServiceRegis] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-06-03T14:07:45.186+03:00  WARN 10864 --- [ServiceRegis] [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-03T14:07:46.103+03:00  INFO 10864 --- [ServiceRegis] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8761 (http)
+2024-06-03T14:07:46.135+03:00  INFO 10864 --- [ServiceRegis] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-03T14:07:46.137+03:00  INFO 10864 --- [ServiceRegis] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-03T14:07:46.261+03:00  INFO 10864 --- [ServiceRegis] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-03T14:07:46.262+03:00  INFO 10864 --- [ServiceRegis] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9458 ms
+2024-06-03T14:07:49.502+03:00  INFO 10864 --- [ServiceRegis] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2024-06-03T14:07:49.505+03:00  INFO 10864 --- [ServiceRegis] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2024-06-03T14:07:49.699+03:00  INFO 10864 --- [ServiceRegis] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2024-06-03T14:07:49.700+03:00  INFO 10864 --- [ServiceRegis] [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2024-06-03T14:07:52.514+03:00  WARN 10864 --- [ServiceRegis] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-06-03T14:07:52.543+03:00  INFO 10864 --- [ServiceRegis] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-06-03T14:07:52.594+03:00  INFO 10864 --- [ServiceRegis] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-06-03T14:07:52.595+03:00  INFO 10864 --- [ServiceRegis] [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2024-06-03T14:07:52.605+03:00  INFO 10864 --- [ServiceRegis] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1717412872604 with initial instances count: 0
+2024-06-03T14:07:52.667+03:00  INFO 10864 --- [ServiceRegis] [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2024-06-03T14:07:52.669+03:00  WARN 10864 --- [ServiceRegis] [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-06-03T14:07:52.698+03:00  INFO 10864 --- [ServiceRegis] [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2024-06-03T14:07:52.700+03:00  INFO 10864 --- [ServiceRegis] [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2024-06-03T14:07:52.716+03:00  INFO 10864 --- [ServiceRegis] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03T14:07:52.976+03:00  INFO 10864 --- [ServiceRegis] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application SERVICEREGIS with eureka with status UP
+2024-06-03T14:07:53.004+03:00  INFO 10864 --- [ServiceRegis] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2024-06-03T14:07:53.007+03:00  INFO 10864 --- [ServiceRegis] [Thread-9] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2024-06-03T14:07:53.008+03:00  INFO 10864 --- [ServiceRegis] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2024-06-03T14:07:53.009+03:00  INFO 10864 --- [ServiceRegis] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2024-06-03T14:07:53.010+03:00  INFO 10864 --- [ServiceRegis] [Thread-9] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2024-06-03T14:07:53.037+03:00  INFO 10864 --- [ServiceRegis] [Thread-9] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2024-06-03T14:07:53.446+03:00  INFO 10864 --- [ServiceRegis] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8761 (http) with context path ''
+2024-06-03T14:07:53.449+03:00  INFO 10864 --- [ServiceRegis] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2024-06-03T14:07:53.621+03:00  INFO 10864 --- [ServiceRegis] [main] c.e.S.ServiceRegisApplication            : Started ServiceRegisApplication in 19.228 seconds (process running for 28.554)
+2024-06-03T14:08:53.013+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:09:53.022+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 9ms
+2024-06-03T14:10:53.022+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:11:53.022+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:12:53.023+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:13:53.023+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:14:53.024+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:15:53.035+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 10ms
+2024-06-03T14:16:53.043+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2024-06-03T14:17:09.524+03:00  INFO 3580 --- [postServiceconfig] [main] c.e.P.PostServiceeApplication            : Starting PostServiceeApplication using Java 17.0.11 with PID 3580 (C:\Users\Bashoofak\Desktop\project-step-3-bravo-6-going-dark\PostServicee\target\classes started by Bashoofak in C:\Users\Bashoofak\Desktop\project-step-3-bravo-6-going-dark)
+2024-06-03T14:17:09.530+03:00  INFO 3580 --- [postServiceconfig] [main] c.e.P.PostServiceeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-06-03T14:17:09.699+03:00  INFO 3580 --- [postServiceconfig] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2024-06-03T14:17:09.700+03:00  INFO 3580 --- [postServiceconfig] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=postServiceconfig, profiles=[default], label=null, version=4d79cac6e33f8aa7cb3ff0f54c7852951c84039f, state=null
+2024-06-03T14:17:14.188+03:00  INFO 3580 --- [postServiceconfig] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03T14:17:14.518+03:00  INFO 3580 --- [postServiceconfig] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 286 ms. Found 1 JPA repository interface.
+2024-06-03T14:17:15.330+03:00  INFO 3580 --- [postServiceconfig] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd58720b-24b4-33c6-823f-10a7f68c9774
+2024-06-03T14:17:16.080+03:00  WARN 3580 --- [postServiceconfig] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-06-03T14:17:16.085+03:00  WARN 3580 --- [postServiceconfig] [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-03T14:17:16.543+03:00  INFO 3580 --- [postServiceconfig] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-06-03T14:17:16.562+03:00  INFO 3580 --- [postServiceconfig] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-03T14:17:16.563+03:00  INFO 3580 --- [postServiceconfig] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-03T14:17:16.673+03:00  INFO 3580 --- [postServiceconfig] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-03T14:17:16.674+03:00  INFO 3580 --- [postServiceconfig] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6970 ms
+2024-06-03T14:17:17.855+03:00  INFO 3580 --- [postServiceconfig] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03T14:17:18.557+03:00  INFO 3580 --- [postServiceconfig] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-03T14:17:18.673+03:00  INFO 3580 --- [postServiceconfig] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-03T14:17:19.651+03:00  INFO 3580 --- [postServiceconfig] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03T14:17:19.716+03:00  INFO 3580 --- [postServiceconfig] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-03T14:17:20.937+03:00 ERROR 3580 --- [postServiceconfig] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:438) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:189) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar:na]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar:na]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:428) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.example.PostServicee.PostServiceeApplication.main(PostServiceeApplication.java:12) ~[classes/:na]
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:104) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:149) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:165) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:88) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:935) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:805) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	... 49 common frames omitted
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[na:na]
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:62) ~[mysql-connector-j-8.3.0.jar:8.3.0]
+	... 52 common frames omitted
+
+2024-06-03T14:17:21.015+03:00  WARN 3580 --- [postServiceconfig] [main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+
+java.lang.NullPointerException: Cannot invoke "org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(java.sql.SQLException, String)" because the return value of "org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.sqlExceptionHelper()" is null
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:276) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:107) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:223) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:170) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1432) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1503) ~[hibernate-core-6.4.4.Final.jar:6.4.4.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1833) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1234) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:952) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:624) ~[spring-context-6.1.6.jar:6.1.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-3.2.5.jar:3.2.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-3.2.5.jar:3.2.5]
+	at com.example.PostServicee.PostServiceeApplication.main(PostServiceeApplication.java:12) ~[classes/:na]
+
+2024-06-03T14:17:21.180+03:00 ERROR 3580 --- [postServiceconfig] [main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2024-06-03T14:17:21.181+03:00  WARN 3580 --- [postServiceconfig] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+2024-06-03T14:17:52.684+03:00  WARN 10864 --- [ServiceRegis] [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2024-06-03T14:17:53.043+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:18:53.043+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:19:53.058+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 15ms
+2024-06-03T14:20:36.213+03:00  INFO 8724 --- [postServiceconfig] [main] c.e.P.PostServiceeApplication            : Starting PostServiceeApplication using Java 17.0.11 with PID 8724 (C:\Users\Bashoofak\Desktop\project-step-3-bravo-6-going-dark\PostServicee\target\classes started by Bashoofak in C:\Users\Bashoofak\Desktop\project-step-3-bravo-6-going-dark)
+2024-06-03T14:20:36.217+03:00  INFO 8724 --- [postServiceconfig] [main] c.e.P.PostServiceeApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-06-03T14:20:36.317+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Fetching config from server at : http://localhost:8888/
+2024-06-03T14:20:36.318+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.c.c.c.ConfigServerConfigDataLoader   : Located environment: name=postServiceconfig, profiles=[default], label=null, version=4d79cac6e33f8aa7cb3ff0f54c7852951c84039f, state=null
+2024-06-03T14:20:37.831+03:00  INFO 8724 --- [postServiceconfig] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-03T14:20:38.101+03:00  INFO 8724 --- [postServiceconfig] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 253 ms. Found 1 JPA repository interface.
+2024-06-03T14:20:38.781+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd58720b-24b4-33c6-823f-10a7f68c9774
+2024-06-03T14:20:39.295+03:00  WARN 8724 --- [postServiceconfig] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-06-03T14:20:39.301+03:00  WARN 8724 --- [postServiceconfig] [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-06-03T14:20:39.730+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-06-03T14:20:39.753+03:00  INFO 8724 --- [postServiceconfig] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-03T14:20:39.764+03:00  INFO 8724 --- [postServiceconfig] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-06-03T14:20:39.883+03:00  INFO 8724 --- [postServiceconfig] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-03T14:20:39.884+03:00  INFO 8724 --- [postServiceconfig] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3561 ms
+2024-06-03T14:20:40.384+03:00  INFO 8724 --- [postServiceconfig] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-03T14:20:40.473+03:00  INFO 8724 --- [postServiceconfig] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-03T14:20:40.537+03:00  INFO 8724 --- [postServiceconfig] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-03T14:20:41.075+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-03T14:20:41.117+03:00  INFO 8724 --- [postServiceconfig] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-03T14:20:41.409+03:00  INFO 8724 --- [postServiceconfig] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@eabecf5
+2024-06-03T14:20:41.414+03:00  INFO 8724 --- [postServiceconfig] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-03T14:20:42.221+03:00  WARN 8724 --- [postServiceconfig] [main] org.hibernate.dialect.Dialect            : HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-06-03T14:20:43.928+03:00  INFO 8724 --- [postServiceconfig] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-03T14:20:43.991+03:00  INFO 8724 --- [postServiceconfig] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-03T14:20:44.868+03:00  WARN 8724 --- [postServiceconfig] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-03T14:20:45.487+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'LIKCOMMENTCONFIG' URL not provided. Will try picking an instance via load-balancing.
+2024-06-03T14:20:47.264+03:00  INFO 8724 --- [postServiceconfig] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-06-03T14:20:47.341+03:00  WARN 8724 --- [postServiceconfig] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-06-03T14:20:47.374+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-06-03T14:20:47.529+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-06-03T14:20:48.970+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-06-03T14:20:48.991+03:00  INFO 8724 --- [postServiceconfig] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-06-03T14:20:49.025+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-06-03T14:20:49.026+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-06-03T14:20:49.026+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-06-03T14:20:49.027+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-06-03T14:20:49.027+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-06-03T14:20:49.028+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-06-03T14:20:49.028+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-06-03T14:20:49.696+03:00  INFO 10864 --- [ServiceRegis] [http-nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03T14:20:49.697+03:00  INFO 10864 --- [ServiceRegis] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-03T14:20:49.698+03:00  INFO 10864 --- [ServiceRegis] [http-nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-03T14:20:49.824+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-06-03T14:20:49.826+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-06-03T14:20:49.829+03:00  INFO 8724 --- [postServiceconfig] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-06-03T14:20:49.834+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1717413649834 with initial instances count: 0
+2024-06-03T14:20:49.841+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application POSTSERVICECONFIG with eureka with status UP
+2024-06-03T14:20:49.843+03:00  INFO 8724 --- [postServiceconfig] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1717413649843, current=UP, previous=STARTING]
+2024-06-03T14:20:49.859+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_POSTSERVICECONFIG/host.docker.internal:postServiceconfig:8082: registering service...
+2024-06-03T14:20:49.905+03:00  INFO 8724 --- [postServiceconfig] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2024-06-03T14:20:49.907+03:00  INFO 8724 --- [postServiceconfig] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2024-06-03T14:20:50.087+03:00  INFO 8724 --- [postServiceconfig] [main] c.e.P.PostServiceeApplication            : Started PostServiceeApplication in 16.303 seconds (process running for 17.238)
+2024-06-03T14:20:50.134+03:00  INFO 10864 --- [ServiceRegis] [http-nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance POSTSERVICECONFIG/host.docker.internal:postServiceconfig:8082 with status UP (replication=false)
+2024-06-03T14:20:50.138+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_POSTSERVICECONFIG/host.docker.internal:postServiceconfig:8082 - registration status: 204
+2024-06-03T14:20:53.059+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:21:19.831+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-06-03T14:21:19.831+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-06-03T14:21:19.831+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-06-03T14:21:19.831+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-06-03T14:21:19.831+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-06-03T14:21:19.831+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2024-06-03T14:21:19.831+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-06-03T14:21:19.866+03:00  INFO 8724 --- [postServiceconfig] [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-06-03T14:21:53.067+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 8ms
+2024-06-03T14:22:15.875+03:00  INFO 10864 --- [ServiceRegis] [http-nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance GATEWAY/host.docker.internal:Gateway:8765 with status UP (replication=false)
+2024-06-03T14:22:52.711+03:00  INFO 10864 --- [ServiceRegis] [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2024-06-03T14:22:53.068+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:23:15.063+03:00  INFO 8724 --- [postServiceconfig] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-03T14:23:15.065+03:00  INFO 8724 --- [postServiceconfig] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-03T14:23:15.068+03:00  INFO 8724 --- [postServiceconfig] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-06-03T14:23:53.068+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:24:19.713+03:00  INFO 10864 --- [ServiceRegis] [http-nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance LIKCOMMENTCONFIG/host.docker.internal:likcommentconfig:8085 with status UP (replication=false)
+2024-06-03T14:24:53.069+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2024-06-03T14:25:49.034+03:00  INFO 8724 --- [postServiceconfig] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-06-03T14:25:53.069+03:00  INFO 10864 --- [ServiceRegis] [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
