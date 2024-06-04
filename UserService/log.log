@@ -1,0 +1,2 @@
+2024-06-03T10:46:30.303+03:00  WARN 19336 --- [userserviceconfig] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d19h12m7s417ms482µs299ns).
+2024-06-03T10:46:57.556+03:00  INFO 19336 --- [userserviceconfig] [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
