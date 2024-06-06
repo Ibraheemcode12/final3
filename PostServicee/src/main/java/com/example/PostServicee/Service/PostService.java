@@ -45,7 +45,7 @@ public class PostService {
 
     org.slf4j.Logger logger = org.slf4j.LoggerFactory.getLogger(PostService.class);
 
-    private final String folder = "C:/Users/Abdallah Sbeih/Desktop/project-step-3-bravo-6-going-dark/PostServicee/src/main/java/com/example/PostServicee/images/";
+    private final String folder = "C:/Users/Bashoofak/Desktop/project-step-3-bravo-6-going-dark/PostServicee/src/main/java/com/example/PostServicee/images/";
 
     // Wont be calling the comment_like microservice for the get_posts because this
     // will the slow systme a lot, in short Having to call the comment_like service
@@ -132,7 +132,7 @@ public class PostService {
         }
     }
 
-    public Post Add_post(String content, String username, MultipartFile file) {
+    public Boolean Add_post(String content, String username, MultipartFile file) {
         try {
             Post post = new Post();
             String uuid = UUID.randomUUID().toString();
@@ -147,10 +147,10 @@ public class PostService {
             post.setAuthorName(username); // setting the author name
             post.setContent(content);
             postrepo.save(post); // Saving it into the database
-            return post;
+            return true;
         } catch (Exception error) {
             logger.error("\u001B[31m " + error + " \u001B[0m");
-            return null;
+            return false;
         }
 
     }

@@ -12,11 +12,11 @@ public class Like {
 @Id @GeneratedValue private Long id;
 
 private String AuthorName;
-private Long postid;
+private Long objid;
 
 public Like(String auth,Long ID){
     this.AuthorName=auth;
-    this.postid=ID;
+    this.objid=ID;
 }
 
 public Like(){
