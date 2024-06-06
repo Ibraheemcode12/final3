@@ -19,31 +19,27 @@ import jakarta.persistence.GeneratedValue;
 @AllArgsConstructor
 public class Post {
 
+  private @Id @GeneratedValue Long id;
 
-  
+  @NotBlank(message = "Type somethin...")
+  private String content;
 
-    private @Id @GeneratedValue Long id;
+  @CreationTimestamp
+  @Temporal(TemporalType.TIMESTAMP)
+  @Column(nullable = false)
+  private LocalDateTime timestamp;
 
-    @NotBlank(message = "Type somethin...")
-    private String content;
-    
+  public Post() {
 
-    @CreationTimestamp
-    @Temporal(TemporalType.TIMESTAMP)
-    @Column(nullable = false) 
-    private LocalDateTime timestamp;
-
-    public Post() {
-
-    }
-    
-    private String authorName;
-  
-   public Post( String content, String username) {
-    this.content = content;
-    this.timestamp = LocalDateTime.now(); 
   }
 
+  private String authorName;
 
+  public Post(String content, String username) {
+    this.content = content;
+    this.timestamp = LocalDateTime.now();
+  }
+
+  private String path;
 
 }
