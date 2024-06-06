@@ -1,0 +1,49 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "GatewayApplication",
+            "request": "launch",
+            "mainClass": "com.example.Gateway.GatewayApplication",
+            "projectName": "Gateway"
+        },
+        {
+            "type": "java",
+            "name": "PostServiceeApplication",
+            "request": "launch",
+            "mainClass": "com.example.PostServicee.PostServiceeApplication",
+            "projectName": "PostServicee"
+        },
+        {
+            "type": "java",
+            "name": "LikeCommentServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.like_comment_service.LikeCommentServiceApplication",
+            "projectName": "like_comment_service"
+        },
+        {
+            "type": "java",
+            "name": "UserServiceApplication",
+            "request": "launch",
+            "mainClass": "com.example.UserService.UserServiceApplication",
+            "projectName": "UserService"
+        },
+        {
+            "type": "java",
+            "name": "ServiceRegisApplication",
+            "request": "launch",
+            "mainClass": "com.example.ServiceRegis.ServiceRegisApplication",
+            "projectName": "ServiceRegis"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<ConfigServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.ConfigServer.ConfigServerApplication",
+            "projectName": "ConfigServer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

@@ -50,7 +50,7 @@ public class PostController {
     }
 
     @PostMapping("/post-for-user")
-    public ResponseEntity<Post> Addpost(@RequestBody MultipartFile file, @RequestParam String content,
+    public ResponseEntity<Boolean> Addpost(@RequestBody MultipartFile file, @RequestParam String content,
             @RequestHeader("Username") String username) {
         return ResponseEntity.ok(postservice.Add_post(content, username, file));
     }

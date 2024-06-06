@@ -39,7 +39,7 @@ public class Comments_likes_Controller {
     }
 
     @PostMapping("/comment")
-    public ResponseEntity<Comments> create_comment(@RequestBody Comments comment,
+    public ResponseEntity<Boolean> create_comment(@RequestBody Comments comment,
             @RequestHeader("Username") String username) { // the json obj sent will contain the postid.
         return ResponseEntity.ok(commentservice.save_comment(comment, username));
     }

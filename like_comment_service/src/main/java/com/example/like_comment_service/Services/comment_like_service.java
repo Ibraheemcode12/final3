@@ -129,7 +129,7 @@ public class comment_like_service {
 
     }
 
-    public Comments save_comment(Comments comments, String username) {
+    public Boolean save_comment(Comments comments, String username) {
 
         // Same thing as like case here but for the comments.
         try {
@@ -141,10 +141,10 @@ public class comment_like_service {
             comments.setDate(LocalDateTime.now());
             commentrepo.save(comments);
 
-            return comments;
+            return true;
         } catch (Exception error) {
             logger.error("\u001B[31m " + error + "\u001B[0m");
-            return null;
+            return false;
         }
 
     }
